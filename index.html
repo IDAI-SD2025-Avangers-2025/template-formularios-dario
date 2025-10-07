@@ -1,1 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<style>
+    body{
+        background-color: rgb(143, 249, 249);
+        color: rgb(251, 134, 245);
+    }
+</style>
+<body>
+  <h1>Mi primer formulario</h1>  
 
+  <br>
+
+  <form action="">
+    <label for="Nombre">
+        Nombre(s)
+    </label>
+    <input type="text" name="nombre" id="campo-nombre">
+
+    <br>
+  
+    <label for="Apellidos">
+        Apellidos
+        <input type="text"
+        apellidos="apellidos"  id="campo-apellidos">
+    
+        <br>
+
+    <label for="Correo electronico">
+        Correo electronico
+    <input type="email" 
+    name="correo" id="campo-correo">
+    </label>
+
+    <br>
+
+    <label for="Telefono">
+        Telefono
+    <input type="tel" name="Telefono" id="campo-telefono"> 
+    </label>
+    
+    <br>
+
+    <label for="contraseña">
+        Contraseña
+    </label>
+    <input type="password" 
+    name="contraseña" id="campo-contraseña">
+
+    <br>
+
+    <label for="radio button">
+        Radio
+    </label>
+    <input type="radio" 
+    name="radio" id="campo-radio">
+    
+    <br>
+
+    <label for="colores">
+        Colores
+    </label>
+    <input type="colores" 
+    name="colores" id="campo-colores">
+    
+    <br>
+
+    <label for="género">
+        Género
+    </label>
+    <select name="género" id="campo-género">
+        <option value="1">Femenino</option>
+        <option value="2">Masculino</option>
+    </select>
+
+    <br>
+
+    <label for="fecha">
+        Fecha Nacimiento
+    </label>
+    <input type="date" name="Fecha nacimiento" id="campo-fecha">
+
+    <br>
+  <label for="Busqueda"> Busqueda </label>
+  <input type="search" name="Busqueda" id="Busqueda">
+    
+    <br>
+  <label for="C de C"> Campo de texto </label>
+  <textarea name="Campo de Texto" id="Campo de Texto"></textarea>
+    
+
+    <br>
+    <label for="Rango"> Rango </label>
+    <input type="range" name="rango" id="rango">
+    
+    <br>
+     
+    <label for= "Hora"> Hora </label>
+    <input type="time-local" name="Hora" id="Hora">
+    
+    <br>
+    <label for="S-O"> Selecciona la opcion correcta </label>
+    <select name="si" id="si">
+     <option value="1">Opcion 1</option>
+     <option value="2">Opcion 2</option>
+    <option value="3">Opcion 3</option>
+    
+
+    <br>
+    <label for="checkbox"> Checkbox </label>
+    <input type="checkbox" name="Checkbox" id="checkbox">
+
+    <progress max="100" value="100"></progress>
+
+ 
+    <br>
+    <label for="Tipo Numerico"> Tipo Numerico </label>
+    <input type="number" name="TNumerico" id="TNumerico" min="5" max="20" title="numeros del 5 al 20">
+ 
+ 
+ 
+ 
+ 
+ <!-- EL INPUT SUBMITY EL BUTTON ES LO MISMO-->
+    <br>
+    <input type="submit" value="Enviar Datos">
+    
+    <br>
+    
+    <button type="submit">
+        Guardar Datos
+    </button>
+    
+</form>
+
+</body>
+</html>
